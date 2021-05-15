@@ -2,10 +2,13 @@ from flask import Flask,render_template,request
 from flask_sqlalchemy import SQLAlchemy
 from datetime import datetime
 
+
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///Job_Storage.db'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
+
+
 
 class Job_Storage(db.Model):
     Company_name = db.Column(db.String(50),primary_key = True)
@@ -29,8 +32,8 @@ class Job_Storage(db.Model):
 #     self.Job_desc = Job_desc
 #     self.Job_location = Job_location
 #     self.Job_skills_req = Job_skills_req
-        
-    
+
+
 
 @app.route("/")
 def index():
