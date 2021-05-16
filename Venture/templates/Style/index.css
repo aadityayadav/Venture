@@ -1,1 +1,141 @@
+.logo{
+  border-radius: 100%;
+  width: 250px;
+  height: 250px;
+  display: block;
 
+}
+body{
+  background-color: black;
+  color: white;
+}
+#heading{
+  font-size: 125px;
+  padding-left: 25px;
+}
+#myVideo {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+}
+.contentHomePage{
+  margin-left: 100px;
+}
+p{
+  font-family: monospace;
+  font-size: 25px;
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  position: relative;
+  /* opacity: 0.65; */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.bgimg-1 {
+  background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.ghvkRO-_mtnig2nDUpxOowHaEB%26pid%3DApi&f=1');
+  min-height: 400px;
+}
+
+.bgimg-2 {
+  background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.aZzzVeUouVHZsAVJ4SblFQHaCx%26pid%3DApi&f=1');
+  min-height: 400px;
+}
+
+.bgimg-3 {
+  background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.eK-dTBBvNI_gHwE4rygiuwHaFA%26pid%3DApi&f=1');
+  min-height: 400px;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  border-width: thick;
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+
+}
+
+.welcometo{
+  color:white;
+  padding-left: 25px;
+}
+
+/* h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+} */
+
+/* Turn off parallax scrolling for tablets and phones */
+/* @media only screen and (max-device-width: 1024px) {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: scroll;
+  } */
+
+
+ /* .parallax {
+  /* The image used */
+  /* background-image: url('/Users/aaditya/Desktop/Vinyl/silhouette-of-tree-branches-1006098.jpg'); */
+
+  /* Full height */
+  /* height: 500px; */
+
+  /* Create the parallax scrolling effect */
+  /* background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+
+
+/* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
+/* @media only screen and (max-device-width: 1366px) {
+  .parallax {
+    background-attachment: scroll;
+  } */
+
+
+  /* .video {
+      height: 100%;
+      left: 0;
+      position: absolute;
+      top: 0;
+      width: 100%;
+  } */
+
+/* .ParallaxVideo{
+    height: 300px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+.ParallaxVideo video{
+    min-width: 100%;
+    position: fixed;
+    top:0;
+    z-index: -999;
+
+} */
