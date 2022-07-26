@@ -24,6 +24,8 @@ void Game::addPlayer(bool colour) {
         cin >> cmd;
         if (cmd == "human") {
             players[colour] = make_shared<Human>(colour);
+        } else if(cmd == "computer1"){
+            players[colour] = make_shared<Level1Computer>(colour);
         } else {
             success = false;
         }
