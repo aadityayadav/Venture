@@ -1,0 +1,11 @@
+setup
++ K a1
++ P e4
++ k f5
+done
+- f5
++ k d5
+done
+- d5
++ k h8
+done

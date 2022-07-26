@@ -1,0 +1,29 @@
+setup
++ K a1
++ N e4
++ k f2
+done
+- f2
++ k d2
+done
+- d2
++ k c3
+done
+- c3
++ k c5
+done
+- c5
++ k d6
+done
+- d6
++ k f6
+done
+- f6
++ k g5
+done
+- g5
++ k g3
+done
+- g3
++ k h8
+done

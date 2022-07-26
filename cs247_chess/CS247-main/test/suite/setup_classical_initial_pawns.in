@@ -1,0 +1,28 @@
+setup
++ k c6
++ K f3
++ p a1
+done
+- a1
++ p h1
+done
+- h1
++ P a8
+done
+- a8
++ P h8
+done
+- h8
++ P a2
++ P a3
++ P a4
++ P a5
++ P a6
++ P a7
++ p h2
++ p h3
++ p h4
++ p h5
++ p h6
++ p h7
+done

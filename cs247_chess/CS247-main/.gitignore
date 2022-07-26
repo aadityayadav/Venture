@@ -1,0 +1,8 @@
+/chess_cs247.iml
+.idea/
+*.o
+*.d
+*.h.gch
+venv/
+final
+test/__pycache__/

@@ -1,0 +1,28 @@
+setup
++ K e4
++ k e5
+done
+- e5
++ k f5
+done
+- f5
++ k f4
+done
+- f4
++ k f3
+done
+- f3
++ k e3
+done
+- e3
++ k d3
+done
+- d3
++ k d4
+done
+- d4
++ k d5
+done
+- d5
++ k a8
+done

@@ -1,0 +1,8 @@
+setup
++ k e4
++ k e5
+done
+- e5
++ K e8
+done
+quit
